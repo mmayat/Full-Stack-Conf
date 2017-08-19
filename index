@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>Full Stack Conf</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<!--    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />-->
+
+   
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    
+    <!--My stylesheet-->
+    <link rel="stylesheet" href="css/mystyles.css" type="text/css">
+    
+  </head>
+  <body class="bg-default">
+  
+<!--Nav Start  -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img src="images/logoconference.jpg" alt="logoconference" height="50px" width="50px"></a>
+  <div class="collapse navbar-collapse" id="navbarText"> 
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about1">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#speakers">Speakers</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#scedule">Scedule</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+        <a class="navbar-link"  href="http://www.teamtreeehouse.come">Presented by Treehouse</a>
+    </span>
+  </div>
+</nav>
+      
+      
+      
+      
+      
+<!--nav end-->
+ 
+<!--jumbotron start  -->
+  <div class="jumbotron jumbotron-fluid bg-info text-center">
+<!--  <div class="container text-center bg-info">-->
+    <h1 class="display-2">Full Stack Conf</h1>
+    <p class="lead">One Day Conferenece about all thing Javascript</p>
+    <div class="btn-group m-t-2" role="group" aria-label="Basic example">
+  <a class="btn btn-primary" href="#form">Registration Form</a>
+  <a class="btn btn-secondary" href="#speakers">See Speakers</a>
+</div>
+  </div>
+      
+<!--jumbotrone end  jumbrotron jumbrotone-fluid -->
+  
+  
+   <div class="container text-center">
+    <p class="lead m-b-3">Coming Soon, a One day conference about all things Javascript</p>
+     
+     <div class="col-md-12 col-md-offset-3 text-center">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Enter Your Email for Info...">
+      <span class="input-group-btn">
+        <button class="btn btn-primary text-center" type="button">Sign Up</button>
+      </span>
+    </div>
+  </div>
+      </div>
+    <br>
+    
+
+      
+      <div class="container pt-5 text-justified">
+<!--  about    -->
+  <div class="row">
+    <div class="col-sm-6 col-sm-push-3">
+<!-- when pushing or pulling column do opposite example "col-sm-6 col-sm-push-3"
+"col-sm-3 col-sm-pull-6"> -->
+     <h3 class="mb-4" id="about1">About Full Stack Conf</h3>
+     <img class="img-fluid rounded hidden-xs-down" src="images/portland.jpg" alt="portland Conference" width="100%">
+<p>The beautiful city of Portland, Oregon will be the host city for Full Stack Conf!</p>
+<p>Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.</p>
+    </div>
+    <div class="col-sm-3 col-sm-pull-6">
+     <h3>Expert Speakers</h3>
+<p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
+<p>Want to meet the international JavaScript community and share skills with some of the world's top experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p>
+<p>Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>What You'll Learn</h3>
+<div class="list-group">
+  <a href="#" class="list-group-item"><strong>MongoDB</strong> NoSQL database</a>
+  <a href="#" class="list-group-item"><strong>Angular</strong> JavaScript framework </a>
+  <a href="#" class="list-group-item"><strong>Express</strong> Framework for Node</a>
+  <a href="#" class="list-group-item"><strong>Node.js</strong> JavaScript environment</a>
+  <a href="#" class="list-group-item"><strong>ES2015</strong> Latest version of JavaScript</a>
+  <a href="#" class="list-group-item"><strong>Babel</strong> JavaScript compiler</a>
+</div>
+    </div>
+  </div><!--  /about end-->
+  
+<!-- speakers -->
+<h1 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h1>
+<div class="row">
+  <div class="col-md-6 col-lg-4">
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="images/angie.png" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Angie McAngular</h4>
+    <p class="card-text">Angie is a web developer and tutor is is passionate about building data driven apps.</p>
+  </div>
+</div>
+  </div>
+
+  <div class="col-md-6 col-lg-4">
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="images/nodestradamus.png" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">NodeStradamus</h4>
+<p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+  </div>
+</div>
+  </div>
+
+  
+  <div class="col-md-6 col-lg-4">
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="images/geo.png" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Geo "Lo" Cation</h4>
+<p class="card-text">Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.</p>
+  </div>
+      </div>
+    </div>
+     <div class="col-md-6 col-lg-4">
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="images/jay.png" alt="Card image cap">
+  <div class="card-block">
+   <h4 class="card-title">Jay Query</h4>
+<p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+  </div>
+      </div>
+    </div>
+     
+     <div class="col-md-6 col-lg-4">
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="images/ecma.png" alt="Card image cap">
+  <div class="card-block">
+   <h4 class="card-title">Ecma Scriptnstuff</h4>
+<p class="card-text">Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.</p>
+  </div>
+      </div>
+    </div>
+     
+     <div class="col-md 6 col-lg-4">
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="images/json.png" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Json Babel</h4>
+<p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+  </div>
+      </div>
+    </div>
+     <br>
+      <br>
+
+<!--schedule -->
+    
+
+   <div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1" id="scedule">KeyNote: Internet Of Things</h5>
+      <small>9:00am</small>
+    </div>
+      <p class="mb-1">Angie McAngular</p>
+    <p class="mb-1">Angie is a web developer and tutor is is passionate about building data driven apps.</p>
+    
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Angular Basics</h5>
+      <small class="text-muted">10:00am</small>
+    </div>
+    <p class="mb-1">Nodestradamus</p>
+    <p class="mb-1">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Hey, Mongo</h5>
+      <small class="text-muted">11:00am</small>
+    </div>
+      <p class="mb-1">Geo Lo Cation</p>
+    <p class="mb-1">Jay is a developer, author of CSS: The Missing Manual, JavaScript and jQuery: The Missing Manual, and web development teacher.</p> 
+
+  </a>
+       <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Lunch</h5>
+      <small>12:00pm</small>
+    </div>
+    <p class="mb-1">Free Lunch and drinks for everyone attending.</p>
+  </a>
+       <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Introducing ES2015</h5>
+      <small>1:00pm</small>
+    </div>
+     <p class="mb-1">Jay Query</p>
+    <p class="mb-1">Jay is a developer, author of CSS: The Missing Manual, JavaScript and jQuery: The Missing Manual, and web development teacher.</p>      
+    
+  </a>
+       <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Getting MEAN</h5>
+      <small>2:00pm</small>
+    </div>
+    <p class="mb-1">Ecma Scriptnstuff</p>
+    <p class="mb-1">Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.</p>
+  </a>
+       <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">What's Babel</h5>
+      <small>3:00pm</small>
+    </div>
+    <p class="mb-1">Json Babel</p>
+    <p class="mb-1">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job</p>
+    
+  </a>
+       <br>
+</div>
+          </div>
+       
+
+<!--callout button
+<button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't miss out, register now</button>
+
+<!--registration form modal not working see if you can fix it-->
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <strong>Hurry</strong> Early birds registration ends in two days
+</div>
+<h1 id="form" class="display-4 text-center my-5 text-muted">Registration form</h1>
+<form>
+ <h5 class="m-b-2">Basic Info</h5>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Full Name" minlegth="2" required/>
+<!--    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+  </div>
+  <div class="form-group">
+    <label for="mail" class="form-control-label">E-mail:</label>
+    <input type="email" class="form-control" id="mail" placeholder="Enter Valid E-mail" required/>
+  </div>
+  <div class="form-group">
+    <label for="exampleSelect1">Select Job</label>
+<!--  c-select make text in drop down list fit  -->
+    <select class="c-select" "form-control" id="role" name="user_role">
+      <option value="full stack js developer">Full Stack JavaScript Developer</option>
+<option value="front end developer">Front End Developer</option>
+<option value="back end developer">Back End Developer</option>
+<option value="designer">Designer</option>          
+<option value="student">Student</option> 
+    </select><br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+         <hr class="my-4 text-center">
+         <h5 class="mb-4 text-center">Which Topics Interest You Most?</h5>
+         
+    
+        
+        <div class="form-check text-center">
+    <label class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">HTML and CSS</span>
+    </label>
+    
+    <label class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Jquery</span>
+    </label>
+    
+    <label class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Javascript</span>
+    </label>
+    
+    <label class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Wordpress</span>
+    </label>
+    
+    <label class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">PHP</span>
+    </label>
+    
+    <label class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Phython</span>
+    </label>
+</div>
+        
+<!--  payment      -->
+         <hr class="mb-4">
+         <h5 class="mb-4">payment Info</h5>
+         
+         <div class="row">
+  <div class="col-lg-6 form-group">
+    <label for="cc-num">Card Number:</label>
+    <input class="form-control" id="cc-num" type="text" required>
+  </div>
+
+  <div class="col-lg-3 form-group">
+    <label for="postcode">Post Code:</label>
+    <input class="form-control" id="postcode" type="text" required>
+  </div>
+
+  <div class="col-lg-3 form-group">
+    <label for="cvv">CVV:</label>
+    <input class="form-control" id="cvv" type="text" required>
+  </div>
+</div>
+         <div class="row">
+             <label class="col-lg-12">Expiration date</label>
+             <div class="col-lg-8 form-group">
+                <select class="custom-select form-control" id="exp-month">
+                      <option value="1">1 - January</option>
+                      <option value="2">2 - February</option>
+                      <option value="3">3 - March</option>
+                      <option value="4">4 - April</option>
+                      <option value="5">5 - May</option>
+                      <option value="6">6 - June</option>
+                      <option value="7">7 - July</option>
+                      <option value="8">8 - August</option>
+                      <option value="9">9 - September</option>
+                      <option value="10">10 - October</option>
+                      <option value="11">11 - November</option> 
+                      <option value="12">12 - December</option>                           
+                </select> 
+                 
+             </div>
+             
+             <div class="col-lg-4 form-group">
+                 <select class="custom-select" id="exp-year">
+                      <option value="2016">2016</option>
+                      <option value="2017">2017</option>
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>                          
+                 </select> <br> <br>
+                
+             </div>
+         </div>
+         <button type="submit" class="btn btn-primary ">Register</button> 
+         
+         <hr class="mb-4">
+         
+          </form>
+
+
+
+
+<!--reg form ends-->
+<!-- signup form -->
+<hr>
+<div class="row py-4 text-muted">
+  <div class="col-sm-7">
+    <p><strong>About Treehouse</strong></p>
+    <p>Treehouse brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
+  </div>
+  <div class="col-sm-5">
+    <p><strong>Stay up-to-date on Full Stack Conf</strong></p>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Email">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button">Sign up</button>
+      </span>
+    </div>
+  </div>
+</div>
+<hr><!-- /signup form -->
+
+
+<!--footer-->
+<div class="row py-3 fluid">
+<!--footer need fixing for mobile -->
+  <div class="col-md-7">
+<!--base nav bootsrap-->
+ <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Community</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Tracks</a>
+  </li>
+  <li class="nav-item">
+    <!-- Example split danger button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary">Other Conf</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">HTML and CSS Conf</a>
+    <a class="dropdown-item" href="#">Javascript</a>
+    <a class="dropdown-item" href="#">Jquery</a>
+    <a class="dropdown-item" href="#">Bootstrap</a>
+  </div>
+</div>
+  </li>
+</ul>
+  </div>
+  <div class="col-md-5 text-md-right">
+    <small>&copy; 2016 Full Stack Conf &amp; Treehouse</small>
+  </div>
+</div>
+<!--/footer-->
+</div><!--container end-->
+      
+      
+      
+   
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="jquery/jquery-3.2.1.min%20(2).js"></script>
+    <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
